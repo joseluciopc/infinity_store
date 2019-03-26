@@ -1,0 +1,71 @@
+.justificar
+{
+	text-align: justify;
+}
+
+.color-azul {
+	color: #01579b;
+}
+
+.bordes {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #0d47a1;
+	border-radius: 10px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.card-panel {
+	border-radius: 15px;
+}
+
+.btn {
+	border-radius: 10px;
+}
+
+		footer {
+			border-radius: 10% 10% 0% 0%;
+		}
+
+		.barra h6 {
+			padding-left: 10px;
+			text-decoration: none;
+			color: #0d47a1;
+		}
+
+		.barra-elemento {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-radius: 0px 100px 100px 0px;
+		}
+
+		.barra-elemento:hover {
+			background-color: #F4F4F4;
+		}
+
+		.barra-activa {
+			background-color: #D4D4D4;
+		}
+
+		#img-banner {
+			padding-top: 15px;
+		}
+
+#facebook:hover {
+	background-color: #3b5998;
+	color: white;
+}
+
+#twitter:hover {
+	background-color: #1da1f2;
+	color: white;
+}
